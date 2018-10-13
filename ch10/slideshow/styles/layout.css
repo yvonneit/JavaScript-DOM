@@ -1,0 +1,10 @@
+#slideshow{
+	width: 100px;
+	height: 100px;
+	position: relative;  /*子图片可以使用绝对位置*/
+	overflow: hidden;  /*隐藏溢出内容*/
+}
+
+#preview{
+	position: absolute;
+}

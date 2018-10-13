@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my video</title>
+	<link rel="stylesheet" href="player.css">
+</head>
+<body>
+	<div class="video-wrapper">
+		<!-- 为了确保h5的最大兼容性，至少要包含一下三个格式的视频 -->
+		<video id="movie" controls>
+		  <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" />
+		  <source src="http://media.w3.org/2010/05/sintel/trailer.webm" 
+		    type='video/webm; codecs="vp8, vorbis"' />
+		  <source src="http://media.w3.org/2010/05/sintel/trailer.ogv" 
+		    type='video/ogg; codecs="theora, vorbis"' />
+		  <p>Download movie as 
+		    <a href="http://media.w3.org/2010/05/sintel/trailer.mp4">MP4</a>, 
+		    <a href="http://media.w3.org/2010/05/sintel/trailer.webm">WebM</a>, 
+		    or <a href="http://media.w3.org/2010/05/sintel/trailer.ogv">Ogg</a>.</p> 
+		</video>
+	</div>
+	<script src="player.js"></script>
+	
+</body>
+</html>
